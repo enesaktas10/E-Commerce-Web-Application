@@ -1,0 +1,71 @@
+.categoryRow1 {
+
+    width: 80%;
+    margin: 40px auto 0 auto;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-radius: 30px 30px 0 0;
+}
+
+.categoryLaptopTag {
+    height: 300px;
+    width: 17%;
+    text-decoration: none;
+    color: white;
+    background-color: white;
+}
+
+
+
+.categoryLaptopImg {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+    border-radius: 10px 10px 0 0;
+}
+
+.categoryLaptopImg img {
+    transition: .5s;
+}
+
+.categoryLaptopImg img:hover {
+    transform: scale(1.2);
+}
+
+.categoryLaptopTitle {
+
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 111, 221);
+    transition: .3s;
+    border-radius: 0 0 10px 10px;
+}
+
+.categoryLaptopTitle:hover {
+    background-color: rgb(10, 10, 212);
+}
+
+.categoryRow2 {
+
+    width: 80%;
+    margin: 0 auto 50px auto;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-radius: 0 0 30px 30px;
+}
+
+.categoriesTitle {
+    text-align: center;
+    margin-bottom: 70px;
+    color: black;
+}

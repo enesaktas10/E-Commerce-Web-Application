@@ -1,0 +1,33 @@
+.title-success {
+    color: green;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.check {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.scslgn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.successpage-login {
+    text-decoration: none;
+    font-size: large;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(12, 102, 220);
+    transition: .2s;
+}
+
+.successpage-login:hover {
+    border: 2px solid black;
+    transform: translateY(-3px);
+}

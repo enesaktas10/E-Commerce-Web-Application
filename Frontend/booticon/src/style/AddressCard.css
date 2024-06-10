@@ -1,0 +1,86 @@
+.formAddress {
+
+    width: 30%;
+    height: 500px;
+    margin-top: 80px;
+    margin-bottom: 105px;
+    padding: 40px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+
+}
+
+.space11 {
+    background-color: rgb(15, 13, 13);
+    width: 20%;
+    margin-right: 15px;
+}
+
+.inputNameSurname {
+    display: flex;
+}
+
+.inputNameSurname input {
+    width: 50%;
+    height: 35px;
+}
+
+.inputAddressHeader {
+
+    margin-top: 20px;
+    display: flex;
+}
+
+.inputAddressHeader input {
+    width: 100%;
+    height: 35px;
+}
+
+.inputPhoneNumber {
+    display: flex;
+    margin-top: 20px;
+}
+
+.inputPhoneNumber input {
+    width: 100%;
+    height: 35px;
+}
+
+.inputCity {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.inputCity input {
+    width: 50%;
+    height: 35px;
+}
+
+.inputAddressInformation {
+    display: flex;
+    margin-top: 20px;
+}
+
+.inputAddressInformation textarea {
+    width: 100%;
+}
+
+.inputSubmit {
+    display: flex;
+    margin-top: 20px;
+}
+
+.inputSubmit button {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(53, 53, 241);
+    color: white;
+    border: none;
+    transition: .5s;
+}
+
+.inputSubmit button:hover {
+    background-color: rgb(11, 11, 172);
+}

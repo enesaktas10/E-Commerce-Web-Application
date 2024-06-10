@@ -1,0 +1,196 @@
+.nav {
+    height: 100px;
+    background-color: rgb(236, 230, 230);
+
+}
+
+.nav2 {
+    background-color: white;
+    display: flex;
+
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    color: black;
+    margin-left: 1%;
+}
+
+.title a {
+    text-decoration: none;
+    background-color: black;
+    padding: 7px;
+    border-radius: 10px;
+    color: white;
+}
+
+.navSpace {
+    width: 24%;
+
+    height: 100px;
+
+}
+
+.navSpace2 {
+    width: 7%;
+
+    height: 100px;
+}
+
+.navCategory {
+    display: flex;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+
+.navCategory div {
+    transition: .5s;
+}
+
+.navCategory div:hover {
+    transform: translateY(3px)
+}
+
+.navCategory div a {
+    margin-left: 60px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.navCategory div a:hover {
+    color: rgb(109, 109, 241);
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 11%;
+}
+
+.navLogin {
+    margin-right: 20px;
+}
+
+
+.navLogin a {
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+    padding: 5px 12px;
+}
+
+.navLogin a:hover {
+    color: rgb(109, 109, 241);
+    border-bottom: 1px solid black;
+}
+
+.navRegister a {
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+    padding: 5px 12px;
+}
+
+.navRegister a:hover {
+    color: rgb(109, 109, 241);
+    border-bottom: 1px solid black;
+}
+
+.iconLogin {
+    height: 10px;
+    width: 20px;
+}
+
+.iconn {
+    height: 50px;
+    width: 30px;
+}
+
+.iconLogin {
+    height: 50px;
+    width: 30px;
+    color: black;
+}
+
+.iconRegister {
+    height: 50px;
+    width: 30px;
+    color: black;
+}
+
+.iconBasket {
+    height: 50px;
+    width: 30px;
+    color: red;
+    margin-right: 20px;
+}
+
+.linkSiparsilerim {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px 10px 5px 10px;
+    margin-left: -20px;
+    border-radius: 10px;
+    transition: .1s;
+    color: black;
+}
+
+.linkSiparsilerim:hover {
+    background-color: rgb(36, 36, 214);
+    border: 1px solid black;
+    color: white;
+
+}
+
+.titlies {
+    display: flex;
+}
+
+.titley {
+    margin-left: 15%;
+    color: green;
+}
+
+.navCategory button {
+    display: block;
+    width: 100px;
+    margin-right: 40px;
+    border: none;
+}
+
+.navCategory {
+    border: none;
+}
+
+.navCategory button {
+    color: gray;
+    height: 100px;
+}
+
+.navCategory button:hover {
+    color: black;
+}
+
+
+
+
+.categoryLaptop {
+    margin-left: 15%;
+}
+
+.basketLogo {
+    display: flex;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.basketLogo p {
+    font-size: 15px;
+    color: red;
+}

@@ -1,0 +1,123 @@
+.mainDiv {
+
+    width: 70%;
+
+}
+
+.basketDiv {
+    width: 120%;
+    border: 1px solid black;
+    margin: 30px auto 30px auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.basketImg {
+    margin-right: 120px;
+
+}
+
+.basketProductPrice {
+
+    color: rgb(255, 136, 0);
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 10%;
+}
+
+.basketProductDescription {
+    width: 30%;
+    margin-left: -150px;
+}
+
+.basketProductName {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    height: 35px;
+    border: 1px solid rgb(221, 220, 220);
+    border-radius: 5px;
+    margin-right: -10%;
+}
+
+.basketProductName h3 {
+    font-size: 20px;
+    margin-top: 7px;
+
+}
+
+.buttonEksi {
+    width: 30%;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-right: 1px solid rgb(221, 220, 220);
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.buttonEksi:hover {
+    background-color: rgb(184, 184, 184);
+}
+
+.buttonArtı {
+    width: 30%;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-left: 1px solid rgb(221, 220, 220);
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.buttonArtı:hover {
+    background-color: rgb(184, 184, 184);
+}
+
+.sepetiOnayla {
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    background-color: beige;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+.sepetiOnayla h3 {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+}
+
+.sepetiOnayla p {
+    width: 100%;
+
+    margin: 50px auto 0 auto;
+}
+
+.btnSepeyOnayla {
+    border: 1px solid red;
+    width: 250px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 40px;
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.btnSepeyOnayla:hover {
+    background-color: rgb(255, 116, 3);
+}

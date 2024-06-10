@@ -1,0 +1,92 @@
+.reviewContainer {
+    border: 1px solid black;
+    width: 65%;
+    display: block;
+    margin: 0 auto 100px auto;
+    color: blue;
+    padding: 20px;
+}
+
+.xx2 {
+    color: green;
+}
+
+.adSoyadPhone {
+    display: flex;
+
+}
+
+.adSoyadPhone p {
+
+    margin: 20px 40px 20px 0;
+    color: black;
+}
+
+.kisisel {
+    margin-top: 50px;
+    color: black;
+}
+
+.addresss {
+    margin-top: 30px;
+    color: black;
+}
+
+.tlfn {
+    display: flex;
+}
+
+.adrshead {
+    color: black;
+}
+
+.xyz {
+    display: flex;
+    color: black;
+
+}
+
+.xyz1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 190px;
+}
+
+.xyz2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+}
+
+.xyz3 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 200px;
+    font-weight: bold;
+}
+
+.totalPrice {
+
+    margin: 70px 0 0 0;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    color: black;
+    font-weight: bolder;
+}
+
+.shrilce {
+    color: black;
+}
+
+.adres2s {
+    color: black;
+}

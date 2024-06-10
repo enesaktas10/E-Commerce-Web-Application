@@ -1,0 +1,21 @@
+.firsatlarTitle {
+    width: 80%;
+    margin: 100px auto 30px auto;
+    color: black;
+
+    height: 70px;
+}
+
+
+
+.cardOne {
+    display: flex;
+    width: 120%;
+}
+
+.containerDiv {
+    background-color: #e0e0e0;
+    margin: 0 auto 50px auto;
+    width: 80%;
+
+}
